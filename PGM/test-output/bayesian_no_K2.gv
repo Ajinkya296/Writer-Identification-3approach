@@ -1,0 +1,48 @@
+digraph {
+	f01 [label=f01]
+	f02 [label=f02]
+	f03 [label=f03]
+	f04 [label=f04]
+	f05 [label=f05]
+	f06 [label=f06]
+	f07 [label=f07]
+	f08 [label=f08]
+	f09 [label=f09]
+	f11 [label=f11]
+	f12 [label=f12]
+	f13 [label=f13]
+	f14 [label=f14]
+	f15 [label=f15]
+	f16 [label=f16]
+	f17 [label=f17]
+	f18 [label=f18]
+	f19 [label=f19]
+	f03 -> f05
+	f03 -> f08
+	f03 -> f06
+	f04 -> f09
+	f04 -> f08
+	f04 -> f07
+	f04 -> f03
+	f13 -> f18
+	f13 -> f19
+	f13 -> f17
+	f13 -> f16
+	f13 -> f15
+	f19 -> f16
+	f19 -> f11
+	f19 -> f18
+	f19 -> f12
+	f19 -> f17
+	f19 -> f15
+	f08 -> f09
+	f06 -> f02
+	f09 -> f06
+	f09 -> f05
+	f09 -> f07
+	f09 -> f01
+	f09 -> f02
+	f16 -> f12
+	f14 -> f19
+	f14 -> f13
+}
