@@ -1,6 +1,11 @@
-# Project Title
+# Writer identification from handwriting using 3 approaches
 
-One Paragraph of project description goes here
+In this project we use the 'AND' dataset which is labelled with the writer number who wrote that 'and' , The dataset is avalaible in image form of handwritten word 'and' and also in  human-engineered feature form (curvature of 'a' , slant of 'd' etc). We use 3 approaches to solve the problem of identifying the writer from the handwritting 
+
+We use the human engineered features (curvature of 'a' , slant of 'd' etc) to build our two Bayesian Networks where one would represent the two features are from the same writer and the
+other would represent they are from diffrent writer. Using this knowledge of probability obtained
+from Bayesian Networks we can find out whether the two features belong to handwriting of the same
+writer or not.
 
 ## Getting Started
 
@@ -88,11 +93,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 
-#Writer identification from handwriting using 3 approaches.
 
-In this project we use the 'AND' dataset which has two forms , one with human-engineered features
-and other with images of hand-written text ’and’. We use the human engineered features to build our
-two Bayesian Networks where one would represent the two features are from the same writer and the
-other would represent they are from diffrent writer. Using this knowledge of probability obtained
-from Bayesian Networks we can find out whether the two features belong to handwriting of the same
-writer or not.
+
+
